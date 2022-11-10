@@ -132,9 +132,7 @@ a.active, a:hover{
  }
 
 .banner-area {
-  background-image: url("/assets/images/uploads/products/banner-bg.jpg");
-  height: 100vh;
-  width: 100vw;
+  background-image: url("../images/uploads/products/banner-bg.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
@@ -204,8 +202,7 @@ a.active, a:hover{
 .layout__items img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .product_detail span {
@@ -223,7 +220,7 @@ a.active, a:hover{
 }
 
 .exclusive-deal-area .exclusive-left {
-  background: url("/assets/images/uploads/products/exclusive.jpg") center no-repeat;
+  background: url("./images/uploads/products/exclusive.jpg") center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 275px 0;
@@ -231,9 +228,8 @@ a.active, a:hover{
 
 
 .list-brand a {
-  display: inline-block;
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: inline-block;  
+  object-fit: cover;
   background-size: cover;
   margin-right: -15px;
 }
